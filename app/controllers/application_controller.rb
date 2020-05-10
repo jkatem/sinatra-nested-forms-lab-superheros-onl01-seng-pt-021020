@@ -17,9 +17,9 @@
 #     end
 # end
 
-require 'sinatra/base'
+# require 'sinatra/base'
 
-class App < Sinatra::Base
+class App < Sinatra::Base 
 
     set :views, Proc.new { File.join(root, "../views/") }
 
